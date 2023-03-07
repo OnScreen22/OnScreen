@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="cache-control" content="no-cache">
   <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1.0, user-scalable=no">
-  <title>ONSCREEN21</title>
+  <title>ONSCREEN23</title>
   <link rel="shortcut icon" href="asset/icon.png" type="image/png">
   <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
   <script src="css/bootstrap/js/bootstrap.min.js"></script>
@@ -38,7 +38,7 @@
       <div class="container-fluid blackk" >
 
         <!-- logo -->
-        <a class="navbar-brand logo" href="index.html"><img src="asset/logo.svg" alt=""></a>
+        <a class="navbar-brand logo" href="index.html"><img src="asset/icon.png" alt=""></a>
 
         <!-- hamburger -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -87,7 +87,7 @@
         <div class="col-md-12">
           <div class="sds middle">
             <div class=" land d-flex justify-content-center intro">
-              <svg id="logo" fill="none" width="1164.162" height="296.452" viewBox="0 0 1164.162 296.452"
+              <!-- <svg id="logo" fill="none" width="1164.162" height="296.452" viewBox="0 0 1164.162 296.452"
                 xmlns="http://www.w3.org/2000/svg">
                 <g id="svgGroup" stroke-linecap="round" fill-rule="evenodd" font-size="9pt" stroke="#FFF"
                   stroke-width="0.5mm">
@@ -126,11 +126,11 @@
                     d="M791.628,286.567c-9.025-2.512-18.049-5.279-27.074-7.445-3.82-.918-4.843-2.467-4.843-6.317q.09-85.448-.165-170.865c0-8.017-.481-16.049-.135-24.066.2-4.738-1.73-5.776-5.941-6.016-8.633-.421-17.237-1.324-25.84-2.061a26.472,26.472,0,0,1-3.219-.707v-29h11.567c15.778,0,25.961-7.656,31.3-22.366,3.008-8.273,3.174-8.288,12.213-8.032,4.708.135,9.386.6,14.078.9q0,136.091-.105,272.241C793.418,283.935,795.373,286.943,791.628,286.567Z"
                     id="10" transform="translate(365.253 4.848)" vector-effect="non-scaling-stroke" />
                 </g>
-              </svg>
+              </svg> -->
 
             </div>
             <div class="d-flex justify-content-center align-content-center beyond">
-              <img src="asset/beyond.png" alt="" class="beyondsmall">
+              <img src="asset/icon.png" alt="" class="beyondsmall">
             </div>
             <div class="d-flex justify-content-center align-content-center reg-btn">
               <a href="#register"><button type="button" class="btn  button-registers">Register</button></a>
@@ -154,15 +154,15 @@
         <div class="container">
           <div class="row align-items-center  align-content-center justify-content-center ">
             <div class="col-lg-7 col-sm-12 content-about abt-1">
-              <div class="about-title">ONSCREEN21</div>
-              <p class="about-text">ONSCREEN21 is a project initiated by the Rotaract Club of IIT.
+              <div class="about-title">ONSCREEN23</div>
+              <p class="about-text">ONSCREEN23 is a project initiated by the Rotaract Club of IIT.
                 Its main objective is to develop the cinematography skills of the upcoming and potential filmmakers,
                 that will be increasing the number of practitioners in the field of cinematography.
                 <br>
                 <br>
                 The project consists of a series of workshops and a competition. By participating, the participants will
                 be able to showcase their hidden talents with regards to cinematography, also to polish themselves when
-                entering the competitive filming industry. ONSCREEN21 aspires to be a guiding hand for talented
+                entering the competitive filming industry. ONSCREEN23 aspires to be a guiding hand for talented
                 filmmakers as they develop their identities and brands as creative filmmakers.
 
               </p>
@@ -212,10 +212,10 @@
           <div class="d-flex align-items-center  align-content-center flex-column justify-content-center">
 
             <div class="discover-title  fact-1">
-              Facts about ONSCREEN21
+              Facts about ONSCREEN23
             </div>
             <div class="discover-text fact-2">
-              <p>ONSCREEN21 is an open event that allows participants to showcase their cinematography skills in a
+              <p>ONSCREEN23 is an open event that allows participants to showcase their cinematography skills in a
                 competitive environment.
                 Throughout this project, there will be a series of Workshops and virtual sessions, a Short Film
                 Competition and Hands-on session, and, Final Competition.
@@ -407,7 +407,7 @@
               OFFICIAL TRAILER
             </div>
             <div class="discover-text trailer-2">
-              <p>Buckle up your seatbelts because ONSCREEN21 is about to commence.
+              <p>Buckle up your seatbelts because ONSCREEN23 is about to commence.
               </p>
             </div>
             <div class="trailer-3">
@@ -585,7 +585,7 @@
               <p class="merch-text merch-2">A Polo t-shirt with the platinum sponsor logo on the back, Rotaract
                 Club of
                 IIT logo on the left ,
-                the gold sponsor logo on the right and the ONSCREEN21 logo on the front
+                the gold sponsor logo on the right and the ONSCREEN23 logo on the front
                 <br>
                 <br>
 
@@ -729,7 +729,7 @@
       <div class="bottom_text">
         <span class="copyright_text">© 2021 RACIIT. All rigths reserved.</span>
         <span class="policy_terms">
-          <a href="asset/Privacy Policy for ONSCREEN21.html">Privacy policy</a>
+          <a href="asset/Privacy Policy for ONSCREEN23.html">Privacy policy</a>
 
         </span>
       </div>
@@ -751,6 +751,47 @@
     });
   </script>
   <script src="js/sweetalert2@11.js"></script>
+
+  <script>
+    $("#submit-form").submit((e) => {
+      e.preventDefault();
+      $.ajax({
+        url: "https://script.google.com/macros/s/AKfycbyZiPmywgTN0NmoExMUSjs0NInJBMtKE84jl-UzXc2eh6shM2dW3iESEKrdMaPxKB6g/exec",
+        data: $("#submit-form").serialize(),
+        method: "post",
+        success: function (response) {
+          Swal.fire({
+            position: "center",
+            icon: "success",
+            title: "Registration Successful",
+            footer: "<p>Please be aware of our future emails.</p>",
+            showConfirmButton: false,
+            showCancelButton: false,
+            background: "#edfffc",
+            timer: 5000,
+          })
+          document.getElementById('submit-form').reset();
+          setTimeout(function () {
+            window.location.reload();
+          }, 5000);
+
+        },
+        error: function (err) {
+          Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Something went wrong!",
+            footer: "<p>Please check the missing fields</p>",
+            background: "#edfffc",
+            showCancelButton: false,
+            color: "fff",
+            timer: 6000,
+          })
+        }
+      })
+    })
+  </script>
+  
   <script>
     $("#menu").onePageNav({
   currentClass: "active-link",

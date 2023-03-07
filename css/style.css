@@ -251,13 +251,15 @@ nav a:hover{
 
 
 .beyond{
-    margin-top: -5rem;
+    margin-top: 50rem;
 }
 
 .beyond img{
-    animation: fadeIn 4s ease ;
+    height: 30rem;
+    width: 50rem;
+    animation: fadeIn 1s ease ;
     opacity: 0;
-    animation-delay: 3s;
+    animation-delay: 1s;
     animation-fill-mode: forwards;
 }
 
@@ -1883,3 +1885,5 @@ font-size: 2rem;
   text-decoration: none;
   color: inherit;
 }
+
+
